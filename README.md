@@ -1,4 +1,22 @@
-# Pattern_Recognition
+# Assignment 1
+
+# Part A
+
+## 1.Prove that Hellinger distance is a metric.
+Hint:𝐷(𝑋,𝑌) =√1−𝐵(𝑋,𝑌)
+𝐵(𝑋, 𝑌) ∶ 𝐵h𝑎𝑡𝑡𝑎𝑐h𝑎𝑟𝑦𝑎 𝐶𝑜𝑒𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑡
+
+## 2.Prove that edit distance is a metric.
+
+## 3.How do you convert the cosine distance to a metric?
+
+## 4.Calculate the distance between the two histograms, H1 and H2 using each of the following methods:
+i) KL Distance
+ii) Bhattacharya Distance
+H1 = [ 0.24, 0.2, 0.16, 0.12, 0.08, 0.04, 0.12, 0.04] 
+H2 = [ 0.22, 0.19, 0.16, 0.13, 0.11, 0.08, 0.05, 0.02]
+
+##5. Given (hq-ht)T = (0.5 0.5 -0.5 -0.25 -0.25) and
 
 ## 1. Load grayscale lena image, plot its histogram.
 ```python
@@ -153,3 +171,7 @@ end
 similarity=(sum(vectorOne.*vectorTwo))/(sqrt(sum(vectorOne.^2))*sqrt(sum(vectorTwo.^2)))
 distance=1-similarity
 ```
+
+# Assignment 2
+
+# Assignment 3
