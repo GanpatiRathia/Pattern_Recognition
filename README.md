@@ -1,6 +1,13 @@
 # Pattern_Recognition
 
 ## 1. Load grayscale lena image, plot its histogram.
+```python
+lena512= imread('lena512.bmp');
+histogram(lena512);
+title('Histogram of lena image');
+xlabel('Gray Level');
+ylabel('Pixel Count');
+```
 
 ## 2.Write a program to compute Mahalanobis distance for the following 14 observations (It can be verified with the example solved in class) each of which is a 4-d vector.
 
@@ -20,5 +27,10 @@
 | V13=24 |17 |120.0 |132.06|
 | V14=26 |20 |125.0 |90.85|
         
+Given three points, determine the one which is closest to the given observations: X1=30 20 133 189.6
+X2=22 30 100.06 126.0075
+X3=28.47 20.11 133.06 188.90
+
+
     
  
